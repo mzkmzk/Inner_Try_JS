@@ -5,9 +5,7 @@ return [
 
 
     'entities' => [
-        'User',
-        'Activity',
-        'Media'
+        'PV',
     ],
 
 
