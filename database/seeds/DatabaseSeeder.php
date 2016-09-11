@@ -9,9 +9,15 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         Model::unguard();
-        factory(App\Models\PV_Model::class, 1)->create();
+        factory(App\Models\Creator_PV_Model::class, 1)->create();
 
-factory(App\Models\PV_Model::class, 1)->create();
+factory(App\Models\Creator_PV_Model::class, 1)->create();
+
+factory(App\Models\Creator_PV_Model::class, 1)->create();
+
+factory(App\Models\Creator_PV_Model::class, 1)->create();
+
+factory(App\Models\Creator_PV_Model::class, 1)->create();
 
 //
         Model::reguard();

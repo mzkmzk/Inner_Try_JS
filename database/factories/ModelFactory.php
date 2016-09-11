@@ -13,18 +13,54 @@ function get_all_id(K_Laravel_Creator\Models\Base_Model $base_mobel) {
     return $model_id;
 }
 
-$factory->define(App\Models\PV_Model::class, function (Faker\Generator $faker) {
+$factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $faker) {
     return [
         'created_at' => $faker->dateTime(),
 'updated_at' => $faker->dateTime(),
-'MAC' => $faker->text(30),
 'IP' => $faker->text(30),
 'cookie' => $faker->text(30),
 'user_agent' => $faker->text(30),
 'url' => $faker->text(30),
 'referer' => $faker->text(30),
-'longitude' => $faker->text(30),
-'latitude' => $faker->text(30),
+
+    ];
+});
+
+$factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $faker) {
+    return [
+        'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'IP' => $faker->text(30),
+'cookie' => $faker->text(30),
+'user_agent' => $faker->text(30),
+'url' => $faker->text(30),
+'referer' => $faker->text(30),
+
+    ];
+});
+
+$factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $faker) {
+    return [
+        'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'IP' => $faker->text(30),
+'cookie' => $faker->text(30),
+'user_agent' => $faker->text(30),
+'url' => $faker->text(30),
+'referer' => $faker->text(30),
+
+    ];
+});
+
+$factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $faker) {
+    return [
+        'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'IP' => $faker->text(30),
+'cookie' => $faker->text(30),
+'user_agent' => $faker->text(30),
+'url' => $faker->text(30),
+'referer' => $faker->text(30),
 
     ];
 });

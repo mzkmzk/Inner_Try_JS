@@ -5,7 +5,7 @@ return [
 
 
     'entities' => [
-        'PV',
+        'Creator_PV',
     ],
 
 
