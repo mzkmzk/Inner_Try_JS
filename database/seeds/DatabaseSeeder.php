@@ -19,6 +19,18 @@ factory(App\Models\Creator_PV_Model::class, 1)->create();
 
 factory(App\Models\Creator_PV_Model::class, 1)->create();
 
+factory(App\Models\Creator_PV_Model::class, 1)->create();
+
+factory(App\Models\Creator_PV_Model::class, 1)->create();
+
+factory(App\Models\Creator_PV_Model::class, 1)->create();
+
+factory(App\Models\Creator_Error_Model::class, 1)->create();
+
+factory(App\Models\Creator_PV_Model::class, 1)->create();
+
+factory(App\Models\Creator_Error_Model::class, 1)->create();
+
 //
         Model::reguard();
     }

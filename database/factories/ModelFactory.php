@@ -65,3 +65,82 @@ $factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $
     ];
 });
 
+$factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $faker) {
+    return [
+        'id' => $faker->text(30),
+'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'IP' => $faker->text(30),
+'user_agent' => $faker->text(30),
+'url' => $faker->text(30),
+'referer' => $faker->text(30),
+
+    ];
+});
+
+$factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $faker) {
+    return [
+        'id' => $faker->text(30),
+'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'IP' => $faker->text(30),
+'user_agent' => $faker->text(30),
+'url' => $faker->text(30),
+'referer' => $faker->text(30),
+
+    ];
+});
+
+$factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $faker) {
+    return [
+        'id' => $faker->text(30),
+'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'IP' => $faker->text(30),
+'user_agent' => $faker->text(30),
+'url' => $faker->text(30),
+'referer' => $faker->text(30),
+
+    ];
+});
+
+$factory->define(App\Models\Creator_Error_Model::class, function (Faker\Generator $faker) {
+    return [
+        'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'message' => $faker->text(30),
+'line' => $faker->text(30),
+'column' => $faker->text(30),
+'error_object' => $faker->text(30),
+'pv_id' => $faker->text(30),
+
+    ];
+});
+
+$factory->define(App\Models\Creator_PV_Model::class, function (Faker\Generator $faker) {
+    return [
+        'id' => $faker->text(30),
+'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'IP' => $faker->text(30),
+'user_agent' => $faker->text(30),
+'url' => $faker->text(30),
+'referer' => $faker->text(30),
+
+    ];
+});
+
+$factory->define(App\Models\Creator_Error_Model::class, function (Faker\Generator $faker) {
+    return [
+        'created_at' => $faker->dateTime(),
+'updated_at' => $faker->dateTime(),
+'message' => $faker->text(30),
+'url' => $faker->text(30),
+'line' => $faker->text(30),
+'column' => $faker->text(30),
+'error_object' => $faker->text(30),
+'pv_id' => $faker->text(30),
+
+    ];
+});
+
